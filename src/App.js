@@ -1,11 +1,14 @@
-
+import React from 'react';
 import './App.css';
+import FilmReleases from './containers/FilmReleases'
 
 function App() {
   return (
-    <div className="App">
+  <>
       <h1>Film Releases</h1>
-    </div>
+      <FilmReleases/>
+      
+  </>
   );
 }
 
