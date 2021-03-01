@@ -37,7 +37,14 @@ const FilmReleases = () => {
     <>
     <h1>These are the film releases!</h1>
     <FilmList films={films}/>
-    <a href="https://www.imdb.com/calendar/?region=gb">View more upcoming releases...</a>
+
+    <a href="https://www.imdb.com/calendar/?region=gb" target="_blank">
+    <button>  View more upcoming releases </button>
+    </a>
+
+    {/* <a href="https://www.imdb.com/calendar/?region=gb">
+        View more upcoming releases >>
+    </a> */}
     {/* <button onClick="location.href='https://www.imdb.com/calendar/?region=gb';">View more upcoming releases...</button> */}
 
     
